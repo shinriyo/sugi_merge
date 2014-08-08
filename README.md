@@ -1,13 +1,13 @@
-sugi_merge
+すぎマージ ver 0.1
 ===
 
-*py2app化の手順*
+使い方
+--
 
-http://webconsole.blogspot.jp/2007/08/py2app.html
+1. ウィンドウに最初のファイルをドラッグする。
+2. 結合ボタンを押下。
+3. 同じフォルダにxxxAtlas.pngが生成される
 
-`py2applet --make-setup sugi_merge.py
-rm -rf build dist
-open ./dist/sugi_merge.app`
 
 必須
 ---
@@ -17,3 +17,13 @@ open ./dist/sugi_merge.app`
 _wxPython3.0-osx-3.0.0.0-cocoa-py2.7 をお奨めする_
 
 _wxPython3.0-osx-3.0.0.0-carbon-py2.7 carbonは動かない。_
+
+*py2app化の手順*
+
+http://webconsole.blogspot.jp/2007/08/py2app.html
+
+`py2applet --make-setup sugi_merge.py
+rm -rf build dist
+open ./dist/sugi_merge.app`
+
+
