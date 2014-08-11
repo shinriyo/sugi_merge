@@ -33,8 +33,10 @@ def convert(fst_file, out_put, file_list):
             index = x * canvas_width + y
 
             # indexがlistを超えることはある
-            if index == file_count:
+            if index >= file_count:
                 break
+            #print (index)
+            #print (file_count)
             img = Image.open(file_list[index])
             canvas.paste(img, (width*y, height*x))
 

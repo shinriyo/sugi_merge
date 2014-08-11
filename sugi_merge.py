@@ -96,8 +96,8 @@ class MyFrame(wx.Frame):
         convert(fst, out_file, files)
 
         count = len(files)
-        for file in files:
-            print (file)
+        #for file in files:
+        #    print (file)
 
 
 app = wx.PySimpleApp()
