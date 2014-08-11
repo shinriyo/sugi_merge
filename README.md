@@ -23,8 +23,11 @@ _wxPython3.0-osx-3.0.0.0-carbon-py2.7 carbonは動かない。_
 http://webconsole.blogspot.jp/2007/08/py2app.html
 
 `py2applet --make-setup sugi_merge.py`
+
 `rm -rf build dist`
+
 `python setup.py py2app -A`
+
 `open ./dist/sugi_merge.app`
 
 
